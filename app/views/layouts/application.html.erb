@@ -30,7 +30,7 @@ Ordecom
       <%= button_to "Sign Out", destroy_user_session_path, method: :delete, class: 'btn btn-primary navbar-btn' %>
       <% else %>
       <%= link_to "Log In", new_user_session_path, class:'btn navbar-btn btn-primary', method: :get %>
-      <%= link_to "Sign Up", new_user_registration_path, class:'btn navbar-btn btn-success', method: :get %>
+
       <% end %>
     </div>
     

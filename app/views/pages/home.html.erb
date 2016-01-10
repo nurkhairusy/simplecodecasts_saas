@@ -2,3 +2,20 @@
 <h1>Welcome to Ordecome</h1>
 <h3>a membership site where entrepreneur, customer and investor interact to each other</h3>
 </div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="well">
+            <h2 class="text-center">Basic Membership</h2>
+            <h4>Sign Up for free</h4>
+            <%= link_to "Sign up for free", new_user_registration_path, class: 'btn btn-primary btn-lg btn-block' %>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="well">
+         <h2 class="text-center">Pro Membership</h2>
+         <h4>Sign Up for Pro Account</h4>
+         <%= link_to "Sign up for free", new_user_registration_path, class: 'btn btn-success btn-lg btn-block' %>
+        </div>
+    </div>
+</div>
